@@ -44,5 +44,5 @@ distrobox assemble rm
 ```
 
 [specs]: https://github.com/Open-Cloud-Console/specs
-[replitplayground]: https://replit.com/@fczluizalabs/Open-Cloud-Console-examples#.replit
+[replitplayground]: https://replit.com/@fczuardi/Open-Cloud-Console-examples#.replit
 [distrobox]: https://distrobox.it/
