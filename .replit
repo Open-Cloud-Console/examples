@@ -1,0 +1,23 @@
+# Run commands, comment the default
+# and uncomment one (Ctrl+/)
+# ----------------------------------------
+
+# default
+run = "echo edit the .replit file and uncomment the run command of your choice"
+
+# Next.js
+# run = "cd frameworks/nextjs && npm install && npm run dev"
+
+# ----------------------------------------
+
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "./run-example.sh"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
