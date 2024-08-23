@@ -1,0 +1,11 @@
+modules = ["nodejs-20"]
+run = "./run-example.sh"
+
+[[env]]
+EXAMPLE = "nextjs"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "./run-example.sh"]
